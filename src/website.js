@@ -77,10 +77,10 @@ function createFooter() {
   footer.classList.add("footer");
 
   const copyright = document.createElement("p");
-  copyright.textContent = `Copyright © ${new Date().getFullYear()} liva`;
+  copyright.textContent = `Copyright © ${new Date().getFullYear()} xlr8nur`;
 
   const githubLink = document.createElement("a");
-  githubLink.href = "https://github.com/thecodingliva";
+  githubLink.href = "https://github.com/xlr8nur";
 
   const githubIcon = document.createElement("i");
   githubIcon.classList.add("fab");
